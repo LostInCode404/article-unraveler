@@ -29,6 +29,8 @@ An end-to-end chat based app that helps users research online articles throught 
 
 Watch the demo video below to see this app in action:
 
+[article-unraveler-demo-2.webm](https://github.com/LostInCode404/article-unraveler/assets/15314796/70b128f6-c916-4254-a0fa-227506d90f1e)
+
 
 ## System Architecture
 
