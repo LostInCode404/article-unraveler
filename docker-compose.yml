@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app:
+    container_name: article-unraveler
+    env_file:
+      - ./.env
+    environment:
+      - GOOGLE_API_KEY
+      - GOOGLE_MODEL_NAME=${GOOGLE_MODEL_NAME:-gemini-1.5-flash}
+      - GOOGLE_EMBEDDING_MODEL_NAME=${GOOGLE_EMBEDDING_MODEL_NAME:-models/embedding-001}
+    build:
+      context: .
+      dockerfile: ./app/Dockerfile
+    ports:
+      - "5000:8501"
