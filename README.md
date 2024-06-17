@@ -29,7 +29,7 @@ An end-to-end chat based app that helps users research online articles throught 
 
 Watch the demo video below to see this app in action:
 
-[article-unraveler-demo-2.webm](https://github.com/LostInCode404/article-unraveler/assets/15314796/70b128f6-c916-4254-a0fa-227506d90f1e)
+[article-unraveler-demo.webm](https://github.com/LostInCode404/article-unraveler/assets/15314796/2607b8b9-81dc-477a-a6eb-f3ef988565fb)
 
 
 ## System Architecture
@@ -69,7 +69,7 @@ Streamlit UI takes the user input and uses the LLM to generate results.
 3. **Chroma Vector DB Indexing**: Split the loaded data into chunks and index them in the Vector DB.
 &nbsp;<br>
 &nbsp;<br>
-<img src="doc/article-unraveler-preprocessing.png" width="400" style="margin-left: 20px" />
+<img src="doc/article-unraveler-preprocessing.png" width="500" style="margin-left: 20px" />
 
 ### Querying
 
@@ -79,7 +79,7 @@ Streamlit UI takes the user input and uses the LLM to generate results.
 4. **Generate Response**: Send the prompt to the LLM to generate response. 
 &nbsp;<br>
 &nbsp;<br>
-<img src="doc/article-unraveler-qa-flow.png" width="600" style="margin-left: 20px" />
+<img src="doc/article-unraveler-qa-flow.png" width="700" style="margin-left: 20px" />
 
 &nbsp;<br>
 
