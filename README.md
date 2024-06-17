@@ -143,3 +143,9 @@ Results table:
 | 10 | multi       |         2000 |             300 |         0.2   |                    0.986111 |               0.763988 |                   0.656184 |                 0.979861 |
 | 11 | lotr        |         2000 |             300 |         1e-08 |                    0.986111 |               0.827612 |                   0.720494 |                 0.979861 |
 | 12 | lotr        |         2000 |             300 |         0.2   |                    0.986111 |               0.845993 |                   0.716848 |                 0.979861 |
+
+Based on above result, final model used in this app:
+- Simple single query retriever
+- Chunk size `2000`
+- Chunk overlap `300`
+- Temperature `1e-08`
